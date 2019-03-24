@@ -129,7 +129,7 @@ def f_euler(n:int)->int:
     :return divisors_number: ilość wszsytkich podzielników
 
     """
-    # TU ŹŁE LICZY
+    # poprawione
     divisors_number = 0
     for i in range(1, n+1):
         if gcd(n, i) == 1:
